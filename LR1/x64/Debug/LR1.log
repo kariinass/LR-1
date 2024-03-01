@@ -1,0 +1,57 @@
+﻿  sorts.cpp
+C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(701,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(762,20): warning C4244: =: преобразование "T" в "int", возможна потеря данных
+C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(762,20): warning C4244:         with
+C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(762,20): warning C4244:         [
+C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(762,20): warning C4244:             T=double
+C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(762,20): warning C4244:         ]
+  C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(762,20):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(810,5):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "void insertionSort<double>(T *,int)"
+          with
+          [
+              T=double
+          ]
+  
+C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(691,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(691,15):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(788,5):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "void quickSort<double,int>(T1 *,T2,T2)"
+          with
+          [
+              T1=double,
+              T2=int
+          ]
+  	C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(725,18):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "int partition_r<T1,T2>(T1 *,T2,T2)"
+          with
+          [
+              T1=double,
+              T2=int
+          ]
+  
+C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(674,15): warning C4244: инициализация: преобразование "T1" в "int", возможна потеря данных
+C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(674,15): warning C4244:         with
+C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(674,15): warning C4244:         [
+C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(674,15): warning C4244:             T1=double
+C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(674,15): warning C4244:         ]
+  C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(674,15):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(725,18):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "int partition_r<T1,T2>(T1 *,T2,T2)"
+          with
+          [
+              T1=double,
+              T2=int
+          ]
+  	C:\Users\ffnss\source\repos\LR1\LR1\sorts.cpp(694,12):
+  	выполняется компиляция ссылки на экземпляр шаблон функции "T2 partition<T1,T2>(T1 [],T2,T2)"
+          with
+          [
+              T2=int,
+              T1=double
+          ]
+  
+  LR1.vcxproj -> C:\Users\ffnss\source\repos\LR1\x64\Debug\LR1.exe
